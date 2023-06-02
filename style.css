@@ -128,3 +128,26 @@ p {
   background: var(--primary-color);
   color: #0a58ca;
 }
+@media (max-width: 768px) {
+  h1 {
+    font-size: 64px;
+  }
+}
+
+@media (max-width: 576px) {
+  .app-image {
+    display: none;
+  }
+  .page-text {
+    text-align: center;
+  }
+  .page-header {
+    text-align: center;
+  }
+  .page-links {
+    justify-content: center;
+  }
+  .about-header {
+    font-size: 20px;
+  }
+}
